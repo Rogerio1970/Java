@@ -1,0 +1,19 @@
+public class main
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Ola, Turma que estuda...!");
+        boolean var_boolean = true; int inicio = 35;
+        float peso = 10.5f; double altura = 1.75;
+        char diga = 'C'; String nome = "Eu mesmo";
+
+        System.out.println("O conteúdo Booleano é: "+var_boolean);
+        System.out.println("Idade do Declarante: "+inicio);
+        System.out.println("O peso Adquirido foi: "+peso);
+        System.out.println("A altura adquirida foi: "+altura);
+        System.out.println("Com isso foi com a Média: "+diga);
+        System.out.println("Candidato: "+nome);
+        
+    }
+}
+
