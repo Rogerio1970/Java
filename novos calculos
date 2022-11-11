@@ -1,0 +1,25 @@
+public class main
+{
+    public static void main(String[] args)
+    {
+        float varx = 10f;
+        float vary = 20f;
+        float resul = 0f;
+
+        resul = (varx + vary);
+
+        System.out.println("O Valor do Eixo X é: "+varx);
+        System.out.println("O Valor do Eixo Y é: "+vary);
+
+        System.out.println("O Resultado da Soma é: "+(vary+varx));
+        System.out.println("O Resultado da Subtração é: "+(vary-varx));
+        System.out.println("O Resultado da Multiplicação é: "+(vary*varx));
+        System.out.println("O Resultado da Divisão é: "+(vary/varx));
+
+        System.out.println("Adicional de é: "+resul);
+        
+        System.out.println("O Resto da Divisão é: "+(vary%varx));
+
+
+    }
+}
