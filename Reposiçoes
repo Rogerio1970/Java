@@ -1,0 +1,11 @@
+public class main
+{
+    public static void main(String[] args)
+    {
+        String nome = "Tomaz Turbano";
+        System.out.println(nome.equals("Tomaz"));
+        System.out.println(nome.replace('a','*'));
+        System.out.println(nome.replace("Tomaz","Jacinto"));
+        System.out.println(nome.replaceFirst("Tomaz","Tomins"));        
+    }
+}
